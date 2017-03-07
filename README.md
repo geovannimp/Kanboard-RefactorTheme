@@ -1,7 +1,7 @@
 Refactor Theme
 ==============================
 
-Provides a better look and feel
+Provides a better look and feel to Kanboard
 
 Author
 ------
@@ -25,7 +25,11 @@ You have the choice between 3 methods:
 
 Note: Plugin folder is case-sensitive.
 
-Documentation
+Developing
 -------------
 
-TODO.
+This projet use sass as extension language.   
+
+To install sass and project dependencies run `npm install`.   
+Edit the sass file in 'Asset/sass/' and run `gulp css` to generate the css.   
+Only update kanborad page and everything should work.
