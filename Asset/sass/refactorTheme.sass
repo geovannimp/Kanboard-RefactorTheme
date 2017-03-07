@@ -1,0 +1,339 @@
+$colors: ('yellow': #FFEB3B, 'blue': #2196F3, 'green': #4CAF50, 'purple': #9C27B0, 'red': #F44336, 'orange': #FF9800, 'grey': #9E9E9E, 'brown': #795548, 'deep_orange': #FF5722, 'dark_grey': #424242, 'pink': #E91E63, 'teal': #009688, 'cyan': #00BCD4, 'lime': #CDDC39, 'light_green': #8BC34A, 'amber': #FFC107)
+
+a
+  color: #000
+  text-decoration: none
+a:hover
+  color: #DF5353
+input[type="number"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, textarea:focus
+  border-color: none
+  box-shadow: none
+
+input, textarea
+  padding: 2px 0px
+  border-width: 0!important
+  border-bottom-width: 1px!important
+  background: transparent
+
+label
+  font-size: 10pt
+  padding-bottom: 5px
+
+select
+  -webkit-appearance: none
+  width: 70%
+  padding: 0px 10px
+  line-height: 30px
+  vertical-align: middle
+  background-color: white
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><text x='60%' y='60%' font-size='15' fill='black'>▾</text></svg>")
+  background-position: right center
+  background-repeat: no-repeat
+
+.input-addon input
+  border-width: 1px!important
+  background: white
+
+table
+  td,th
+    padding: 10px 10px
+
+body
+  padding-bottom: 10px
+  margin: 0
+  background: #f3f3f3
+
+  .page
+    padding-left: 10px
+    padding-right: 10px
+
+.avatar-inline
+  line-height: 20px
+
+header
+  background: #FAFAFA
+  height: 50px
+  margin: 0
+  padding: 0 10px 0 10px
+  margin-bottom: 15px
+
+  .menus-container, .title-container, .board-selector-container
+    line-height: 50px
+
+  .select-dropdown-input-container
+    border: 0px solid #dedede
+    border-left: 1px solid #dedede
+    border-right: 1px solid #dedede
+    border-radius: 0
+    box-sizing: border-box
+    background: #f3f3f3
+    input.select-dropdown-input
+      height: 50px
+      padding: 0px 10px
+      box-sizing: border-box
+      background: transparent
+    .select-dropdown-chevron
+      top: 15px
+
+
+.page-header h2
+  border-bottom: 1px solid #f3f3f3
+  font-size: 14pt
+  line-height: 24pt
+  color: #424242
+
+.activity-event
+  .avatar
+    transform: scale(.8)
+    margin-top: -5px
+  .activity-content
+    .activity-title
+      border-bottom: 0px dotted #efefef
+      font-size: 11pt
+    .activity-description
+      margin-top: 5px
+      font-size: 10pt
+
+.ui-widget-shadow
+  -webkit-box-shadow: 0 0 10px #b5b5b5
+  box-shadow: 0 0 10px #b5b5b5
+
+  .tooltip-arrow:after
+    border: 1px solid #ccc
+    box-shadow: 0 0 5px #b5b5b5
+
+.project-overview-column
+  margin: 10px 1.5%
+
+.views
+  margin-right: 0px
+
+
+.views li
+  padding: 10px 10px
+  display: inline-block
+  float: left
+  height: 40px
+  box-sizing: border-box
+
+.views li:first-child
+  border-top-left-radius: 3px
+  border-bottom-left-radius: 3px
+
+.views li:last-child
+  border-top-right-radius: 3px
+  border-bottom-right-radius: 3px
+
+.input-addon-field, .input-addon-item
+  padding: 10px 0.75em
+
+.project-header
+  margin-bottom: 15px
+
+.project-header .views-switcher-component
+  margin-top: 0
+  width: 40%
+
+.project-header .dropdown-component
+  margin-top: 0px
+  line-height: 40px
+
+#select-dropdown-menu
+  border-radius: 0
+  overflow: auto
+  box-sizing: border-box
+
+.sidebar>ul li
+  line-height: 50px
+  border-bottom: 0px dotted #efefef
+
+  a
+    font-size: 10pt
+
+.sidebar>ul li.active
+  a
+    font-size: 11pt
+
+.filter-box
+  max-width: none
+
+.panel
+  li
+    list-style-type: circle
+    line-height: 30px
+  p
+    padding: 20px 0px
+
+.js-calendar table table
+  margin: 0
+
+  td.fc-today
+    background: #EEEEEE
+  td.fc-day-top
+    padding: 10px
+  th span
+    height: 40px
+    display: inline-block
+    vertical-align: middle
+    line-height: 40px
+  td.fc-event-container a
+    padding: 3px 7px
+
+.table-list-header
+  padding: 3px 15px
+
+.menu-inline
+  margin-bottom: 20px
+
+div.ganttview
+  border: 1px solid #ccc
+  border-radius: 2px
+  overflow: hidden
+
+  div.ganttview-slide-container
+    border-left: 1px solid #ccc
+  div.ganttview-hzheader-month
+    background: #EEEEEE
+  div.ganttview-hzheader-day
+    background: #F5F5F5
+  div.ganttview-vtheader-series-name
+    padding-left: 10px
+
+#modal-box
+  height: 100vh
+  overflow: hidden
+  border-radius: 2px
+  width: 95vw!important
+
+  #modal-header
+    padding-right: 15px
+    top: 5px
+    position: relative
+    width: 100%
+    box-sizing: border-box
+    z-index: 1
+  #modal-content
+    padding: 20px
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    overflow: auto
+
+#board
+  background: #fcfcfc
+
+  td
+    padding: 10px
+
+.board-column-header > div
+  text-align: center
+  position: relative
+  .board-add-icon
+    position: absolute
+    left: 0
+
+.task-board
+  border-radius: 2px
+  border-width: 0!important
+  background-color: white!important
+  box-shadow: 0 0 15px #e0e0e0
+  padding: 10px
+  padding-left: 15px
+  transition: .1s ease box-shadow
+  overflow: hidden
+  margin: 10px 0px
+
+.task-board:hover
+  box-shadow: 0 0 15px #bbb
+
+.task-board::before
+  content: ""
+  width: 5px
+  position: absolute
+  left: 0
+  top: 0
+  bottom: 0
+
+.table-list-row
+  padding: 10px
+
+.table-list-row:hover
+  background: #f3f3f3
+  border-bottom: 1px solid #e5e5e5
+  border-right: 1px solid #e5e5e5
+
+.task-form-secondary-column
+  font-size: 10pt
+
+.form-actions
+  .btn
+    border-radius: 0px
+    padding: 5px 20px
+    margin: 0 10px 0 0
+  a
+    padding: 5px 10px
+
+.select2-selection
+  border-radius: 0px!important
+
+.select2-dropdown
+  border-radius: 0px!important
+  margin-top: -2px!important
+
+.color-picker-option
+  height: 26px
+  line-height: 30px
+  vertical-align: middle
+  font-size: 10pt
+
+.task-form-main-column
+  padding-right: 40px
+
+  input#form-title
+    width: 100%
+    max-width: 100%
+  input#form-title+.form-required
+    position: absolute
+    margin-left: -15px
+
+.accordion-title h3
+  background: transparent
+
+.text-editor
+  border: 1px solid #ccc
+  border-bottom-width: 0px
+
+  .text-editor-write-mode, .text-editor-view-mode
+    .text-editor-toolbar
+      line-height: 40px
+      border-bottom: 1px dashed #ccc
+      margin-bottom: 10px
+      padding-left: 10px
+    textarea, .text-editor-preview-area
+      position: relative
+      width: 100%
+      max-width: 100%
+      padding: 0px 10px
+      box-sizing: border-box
+      border-width: 0px
+      border-bottom-width: 1px
+      top: 4px
+    .text-editor-preview-area
+      top: 0px
+
+@each $color, $val in $colors
+  .task-board.color-#{$color}::before
+    background: $val
+
+  .color-picker-square.color-#{$color}
+    background: $val
+    border-width: 0
+
+  .table-list-row.color-#{$color}
+    border-left: 5px solid $val
+
+@media (max-width: 768px)
+  header
+    margin-bottom: 50px
